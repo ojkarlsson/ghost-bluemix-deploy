@@ -10,7 +10,7 @@ applications:
   memory: 256M
   instances: 1
   domain: mybluemix.net
-  name: oj-Ghost-bluemix-deploy
+  name: oj-ghost-bluemix-deploy
   host: oj-ghost-bluemix-deploy
   disk_quota: 1024M
   services:
