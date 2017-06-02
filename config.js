@@ -4,6 +4,7 @@
 // Ghost runs in `development` mode by default. Full documentation can be found at http://support.ghost.org/config/
 
 // get the app environment from Cloud Foundry
+var cfenv = require('cfenv');
 var appEnv = cfenv.getAppEnv();
 
 var path = require('path'),
